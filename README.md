@@ -26,13 +26,13 @@ http://localhost:5000/swagger
 
 
 ## Outras informações
-- Verifique os containers ativos no docker para validar se estão rodando normalmente com o comando
+- Verifique os containers ativos no docker para validar se estão rodando normalmente com o comando no CMD ou PowerShell
   ```bash
   docker ps
   ```
 - Para rodar os testes unitários localmente, execute o comando na raiz do projeto de testes
   ```bash
-  "dotnet test"
+  dotnet test
   ```
 - O projeto APIEmbalagens deve estar compilado antes de executar os testes.
 
