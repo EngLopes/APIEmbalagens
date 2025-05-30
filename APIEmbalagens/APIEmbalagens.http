@@ -1,0 +1,6 @@
+@APIEmbalagens_HostAddress = http://localhost:5156
+
+GET {{APIEmbalagens_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
