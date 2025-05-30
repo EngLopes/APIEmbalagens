@@ -26,8 +26,14 @@ http://localhost:5000/swagger
 
 
 ## Outras informações
-
-- Para rodar os testes unitários localmente, execute o comando "dotnet test" na raiz do projeto de testes.
+- Verifique os containers ativos no docker para validar se estão rodando normalmente com o comando
+  ```bash
+  docker ps
+  ```
+- Para rodar os testes unitários localmente, execute o comando na raiz do projeto de testes
+  ```bash
+  "dotnet test"
+  ```
 - O projeto APIEmbalagens deve estar compilado antes de executar os testes.
 
 - A API está configurada para acessar pela porta 80, então, caso queira testar fora do docker, execute  a API no Visual Studio ou  IDE de preferencia e acesse o link http://localhost:80/swagger
